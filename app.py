@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("Animal Image Recognition Systemr")
+st.title("Animal Image Recognition System")
 st.write(
     "Upload an image and the CNN model will predict "
     "which animal it belongs to."

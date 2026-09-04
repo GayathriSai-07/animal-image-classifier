@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("🐾 Six Animal Image Classifier")
+st.title("Animal Image Recognition Systemr")
 st.write(
     "Upload an image and the CNN model will predict "
     "which animal it belongs to."

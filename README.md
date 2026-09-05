@@ -1,76 +1,42 @@
-# Image Classification Using CNN
+🐾 AI-Based Animal Image Classifier
 
-## Project Description
+An AI-powered image classification web application that uses Deep Learning and Convolutional Neural Networks (CNN) to identify animals from uploaded images.
 
-This project implements an image classification system using
-TensorFlow and a Convolutional Neural Network (CNN).
+The application allows users to upload an animal image, and the trained AI model predicts the animal category.
 
-The model classifies images into six animal categories:
+## 🌐 Live Demo
 
-- Bird
-- Cat
-- Deer
-- Dog
-- Frog
-- Horse
+🚀 **Streamlit App:**  
+https://image-classification-six-animals-5sregduqzdt3zbxd9nu6yt.streamlit.app/
 
-## Dataset
 
-The CIFAR-10 dataset is used for training and testing.
+📌 Project Description
 
-Six animal classes were selected from the CIFAR-10 dataset.
+This project is an AI-based Animal Image Classifier developed using Python, TensorFlow/Keras, and Streamlit.
 
-## Technologies Used
+The model is trained to classify images into 10 different animal categories. Users can upload an image through the web interface, and the application processes the image and displays the predicted animal.
 
-- Python
-- TensorFlow
-- NumPy
-- Matplotlib
-- Google Colab
-- VS Code
-- GitHub
-
-## Model Architecture
-
-The CNN model contains:
-
-- Convolutional layers
-- Max Pooling layers
-- Flatten layer
-- Dense layer
-- Dropout layer
-- Softmax output layer
-
-## Animal Classes
-
-1. Bird
-2. Cat
-3. Deer
-4. Dog
-5. Frog
-6. Horse
-
-## Workflow
-
-Dataset
-→ Preprocessing
-→ CNN Model
-→ Training
-→ Validation
-→ Testing
-→ Prediction
-
-## Result
-
-The trained CNN model can classify images into six different
-animal categories.
-
-## How to Run
-
-Install the required libraries:
-
-pip install -r requirements.txt
-
-Run the Python program:
-
-python image_classification.py
+🐯 Features
+📷 Upload animal images
+🤖 AI-based image classification
+🧠 Deep Learning model using CNN
+🐾 Classification of 10 animal categories
+📊 Displays prediction results
+🌐 Interactive Streamlit web application
+⚡ Easy-to-use interface
+🛠️ Technologies Used
+Python
+TensorFlow
+Keras
+Convolutional Neural Network (CNN)
+Streamlit
+NumPy
+Pillow
+📂 Project Structure
+ImageClassificationProject/
+│
+├── app.py
+├── image_classification.py
+├── animal_classifier.keras
+├── requirements.txt
+└── README.md
